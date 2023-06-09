@@ -12,7 +12,7 @@ import java.util.Map;
 @CrossOrigin
 public class TestController {
 
-    @GetMapping("")
+    @GetMapping("test")
     public ResponseEntity<?> greet() {
         Map<String, String> map = new HashMap<>();
         map.put("response", "Hello, the request is successful");
